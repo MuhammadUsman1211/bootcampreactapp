@@ -1,14 +1,9 @@
 import React from 'react';
-import './App.css';
 
-function App() {
+
+function App(props) {
   return (
-    <div className="App">
-      <h1>Hello World! </h1>
-      <div>
-        Malik Muhammad Usman
-      </div>
-    </div>
+    <p>This text is from Parent Function: props.Parenttext</p>
   );
 }
 
